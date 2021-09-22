@@ -20,7 +20,7 @@ _Chiadika, Frontend developer_
 - [ ] First todo
   - [x] Edit drone image
   - [x] position drone
-  - [ ] Add animation to rotors
+  - [x] Add animation to rotors
 - [ ] Second todo
   - [ ] start rotors on Space key press
   - [ ] Js code to Y-axis translation
