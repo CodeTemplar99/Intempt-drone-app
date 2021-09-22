@@ -18,14 +18,14 @@ _Chiadika, Frontend developer_
 ## TODO
 
 - [ ] First todo
-  - [] Edit drone image
-  - [] position drone
-  - [] Add animation to rotors
+  - [ ] Edit drone image
+  - [ ] position drone
+  - [ ] Add animation to rotors
 - [ ] Second todo
-  - [] start rotors on Space key press
-  - [] Js code to Y-axis translation
-  - [] implement X-axis translation
+  - [ ] start rotors on Space key press
+  - [ ] Js code to Y-axis translation
+  - [ ] implement X-axis translation
 - [ ] Third todo
-  - [] Add banking animation to drone
-  - [] implement tilt animation to drone rotors
+  - [ ] Add banking animation to drone
+  - [ ] implement tilt animation to drone rotors
 - [ ] Some missile?
