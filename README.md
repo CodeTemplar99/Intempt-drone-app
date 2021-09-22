@@ -17,7 +17,7 @@ _Chiadika, Frontend developer_
 
 ## TODO
 
-- [] First todo
+- [ ] First todo
   - [] Edit drone image
   - [] position drone
   - [] Add animation to rotors
