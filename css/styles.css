@@ -1,0 +1,50 @@
+body {
+	background-color: #40c3eb67;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+/* screen container */
+#container {
+	height: 100vh;
+	width: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+/* box containing drone and other components */
+#drone_box {
+	width: 200px;
+	height: 100px;
+	margin: auto;
+	padding: 0;
+	background-image: url(/assets/drone.png);
+	position: absolute;
+	background-position: bottom;
+	background-size: 63%;
+	background-repeat: no-repeat;
+	transition: all 1s linear;
+}
+
+/* div for wings */
+#wing_container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end !important;
+	position: relative;
+	top: 25px;
+	margin: 0;
+	margin-left: 3px;
+}
+
+#leftwing {
+	margin: auto;
+	margin-left: -2px;
+	margin-right: 0;
+}
+
+#rightwing {
+	margin: auto;
+}

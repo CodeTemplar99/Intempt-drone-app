@@ -18,8 +18,8 @@ _Chiadika, Frontend developer_
 ## TODO
 
 - [ ] First todo
-  - [ ] Edit drone image
-  - [ ] position drone
+  - [x] Edit drone image
+  - [x] position drone
   - [ ] Add animation to rotors
 - [ ] Second todo
   - [ ] start rotors on Space key press
