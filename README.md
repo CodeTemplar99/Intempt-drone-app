@@ -12,8 +12,8 @@ _https://github.com/CodeTemplar99/Intempt-drone-app/README.md_
 
 ## Developer.
 
-_Mitchell, Frontend developer_
-Chiadika [@ChiadikaMitch](https://twitter.com/ChiadikaMitch).
+_Chiadika, Frontend developer_
+[@ChiadikaMitch](https://twitter.com/ChiadikaMitch).
 
 ## TODO
 
