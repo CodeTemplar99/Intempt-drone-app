@@ -48,3 +48,17 @@ body {
 #rightwing {
 	margin: auto;
 }
+
+.started {
+	animation: startRotors 0.1s linear infinite;
+}
+
+@keyframes startRotors {
+	from {
+		transform: rotateY(0deg);
+	}
+
+	to {
+		transform: rotateY(360deg);
+	}
+}
