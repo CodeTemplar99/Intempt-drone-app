@@ -19,26 +19,63 @@ window.addEventListener("keydown", (e) => {
 		if (e.key == "ArrowDown") {
 			moveDrone(0, 1);
 		}
+
+		// right control
+		if (e.key == "ArrowRight" && drone.element.style.left < "95%") {
+			document.querySelectorAll(".wingboxes").forEach(function (wingbox) {
+				wingbox.setAttribute("class", "tilt_rRotor");
+				document.querySelector("#drone_box").setAttribute("class", "bankRight");
+				moveDrone(1, 0);
+			});
+			setTimeout(() => {
+				document.querySelectorAll(".tilt_rRotor").forEach(function (wingbox) {
+					wingbox.setAttribute("class", "wingboxes");
+				});
+
+				document
+					.querySelector("#drone_box")
+					.removeAttribute("class", "bankRight");
+			}, 1000);
+		}
+
+		// right control
+		if (e.key == "ArrowLeft" && drone.element.style.left > "0%") {
+			document.querySelectorAll(".wingboxes").forEach(function (wingbox) {
+				wingbox.setAttribute("class", "tilt_lRotor");
+				document.querySelector("#drone_box").setAttribute("class", "bankLeft");
+				moveDrone(-1, 0);
+			});
+			setTimeout(() => {
+				document.querySelectorAll(".tilt_lRotor").forEach(function (wingbox) {
+					wingbox.setAttribute("class", "wingboxes");
+				});
+				document
+					.querySelector("#drone_box")
+					.removeAttribute("class", "bankLeft");
+			}, 1000);
+		}
 	}
 });
 
-// get the initial position of the drone
 let droneCoord = document.getElementById("drone_box").getBoundingClientRect();
 
 // drone object and properties
 let drone = {
 	y: droneCoord.y,
+	x: droneCoord.x,
 	speed: 20,
 	element: document.getElementById("drone_box"),
 };
 
-//
-let moveDrone = function (dy) {
+// function to manipulate drone top and left positions
+let moveDrone = function (dx, dy) {
 	drone.y += (dy || 0) * drone.speed;
+	drone.x += (dx || 0) * drone.speed;
 	drone.element.style.top = drone.y + "px";
+	drone.element.style.left = drone.x + "px";
 };
 
-// determine drone positoning at intervals
+// determine drone positoning at interval
 setInterval(() => {
 	moveDrone();
 }, 1000 / 24);
