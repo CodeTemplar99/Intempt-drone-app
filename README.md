@@ -26,6 +26,6 @@ _Chiadika, Frontend developer_
   - [x] Js code to Y-axis translation
   - [x] implement X-axis translation
 - [ ] Third todo
-  - [ ] Add banking animation to drone
-  - [ ] implement tilt animation to drone rotors
+  - [x] Add banking animation to drone
+  - [x] implement tilt animation to drone rotors
 - [ ] Some missile?

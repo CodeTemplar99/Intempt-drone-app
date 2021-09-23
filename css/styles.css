@@ -62,3 +62,71 @@ body {
 		transform: rotateY(360deg);
 	}
 }
+
+.bankLeft {
+	animation: bankLeft 1s linear infinite 0.2ms;
+}
+
+@keyframes bankLeft {
+	0% {
+		transform: inherit;
+	}
+
+	45% {
+		transform: rotateZ(-5deg);
+	}
+
+	100% {
+		transform: rotateZ(0deg);
+	}
+}
+.tilt_lRotor {
+	animation: tiltL 2s linear alternate;
+}
+@keyframes tiltL {
+	0% {
+		transform: inherit;
+	}
+
+	45% {
+		transform: rotateZ(-10deg);
+	}
+
+	100% {
+		transform: rotateZ(0deg);
+	}
+}
+
+.bankRight {
+	animation: bankRight 1s linear infinite 0.2s;
+}
+
+@keyframes bankRight {
+	0% {
+		transform: inherit;
+	}
+
+	45% {
+		transform: rotateZ(5deg);
+	}
+
+	100% {
+		transform: rotateZ(0deg);
+	}
+}
+.tilt_rRotor {
+	animation: tiltR 2s linear alternate;
+}
+@keyframes tiltR {
+	0% {
+		transform: inherit;
+	}
+
+	45% {
+		transform: rotateZ(10deg);
+	}
+
+	100% {
+		transform: rotateZ(0deg);
+	}
+}
