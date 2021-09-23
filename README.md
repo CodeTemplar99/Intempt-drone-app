@@ -25,7 +25,7 @@ _Chiadika, Frontend developer_
   - [x] start rotors on Space key press
   - [x] Js code to Y-axis translation
   - [x] implement X-axis translation
-- [ ] Third todo
+- [x] Third todo
   - [x] Add banking animation to drone
   - [x] implement tilt animation to drone rotors
 - [ ] Some missile?
