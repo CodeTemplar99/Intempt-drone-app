@@ -21,10 +21,10 @@ _Chiadika, Frontend developer_
   - [x] Edit drone image
   - [x] position drone
   - [x] Add animation to rotors
-- [ ] Second todo
+- [x] Second todo
   - [x] start rotors on Space key press
   - [x] Js code to Y-axis translation
-  - [ ] implement X-axis translation
+  - [x] implement X-axis translation
 - [ ] Third todo
   - [ ] Add banking animation to drone
   - [ ] implement tilt animation to drone rotors
